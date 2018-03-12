@@ -94,13 +94,13 @@ class GameScene: SKScene { //5 p. 653
         
         var hitBug: SKNode?
         /*
-        for node in hitNodes{ //You’ll now find out if any of these nodes are a bug, and if they are, retrieve the first one
-            if node.name == "bug" {
-                hitBug = node
-                break
-            }
-        }
-        */
+         for node in hitNodes{ //You’ll now find out if any of these nodes are a bug, and if they are, retrieve the first one
+         if node.name == "bug" {
+         hitBug = node
+         break
+         }
+         }
+         */
         for node in hitNodes { //replacement of the previous for loop
             if node.name == NodeType.bug.rawValue ||
                 (node.name == NodeType.firebug.rawValue && hasBugspray) {

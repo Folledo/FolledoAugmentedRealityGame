@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD015F912056222A000C424E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD015F902056222A000C424E /* Main.storyboard */; };
 		CDFE81782047906300EDB33C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE81772047906300EDB33C /* AppDelegate.swift */; };
 		CDFE817C2047906300EDB33C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE817B2047906300EDB33C /* GameViewController.swift */; };
-		CDFE817F2047906300EDB33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFE817D2047906300EDB33C /* Main.storyboard */; };
 		CDFE81812047906300EDB33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFE81802047906300EDB33C /* Assets.xcassets */; };
 		CDFE81842047906300EDB33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFE81822047906300EDB33C /* LaunchScreen.storyboard */; };
 		CDFE818C2047912400EDB33C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE818B2047912400EDB33C /* GameScene.swift */; };
@@ -25,10 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD015F902056222A000C424E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CDFE81742047906300EDB33C /* FolledoAugmentedRealityGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolledoAugmentedRealityGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFE81772047906300EDB33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFE817B2047906300EDB33C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		CDFE817E2047906300EDB33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDFE81802047906300EDB33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFE81832047906300EDB33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDFE81852047906300EDB33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,11 +79,11 @@
 				CDFE818B2047912400EDB33C /* GameScene.swift */,
 				CDFE81802047906300EDB33C /* Assets.xcassets */,
 				CDFF605B20482FA600E7CD1F /* FolledoARLevel1.sks */,
-				CDFE817D2047906300EDB33C /* Main.storyboard */,
 				CDFF605720482EB600E7CD1F /* Types.swift */,
 				CDFF605D2048330D00E7CD1F /* Anchor.swift */,
 				CDFF604820482D3300E7CD1F /* Sounds */,
 				CDFE81822047906300EDB33C /* LaunchScreen.storyboard */,
+				CD015F902056222A000C424E /* Main.storyboard */,
 				CDFE81852047906300EDB33C /* Info.plist */,
 			);
 			path = FolledoAugmentedRealityGame;
@@ -162,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFF604F20482DFD00E7CD1F /* hitBug.wav in Resources */,
+				CD015F912056222A000C424E /* Main.storyboard in Resources */,
 				CDFE81842047906300EDB33C /* LaunchScreen.storyboard in Resources */,
 				CDFF605C20482FA600E7CD1F /* FolledoARLevel1.sks in Resources */,
 				CDFF605120482DFD00E7CD1F /* catchBugspray.wav in Resources */,
@@ -169,7 +170,6 @@
 				CDFF605420482DFD00E7CD1F /* lose.wav in Resources */,
 				CDFE81812047906300EDB33C /* Assets.xcassets in Resources */,
 				CDFF605320482DFD00E7CD1F /* win.wav in Resources */,
-				CDFE817F2047906300EDB33C /* Main.storyboard in Resources */,
 				CDFF605220482DFD00E7CD1F /* sprayBug.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,14 +192,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDFE817D2047906300EDB33C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDFE817E2047906300EDB33C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDFE81822047906300EDB33C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
